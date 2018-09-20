@@ -1,0 +1,20 @@
+{
+  "name": "mocha-debug-vscode-flow-es6",
+  "version": "1.0.0",
+  "description": "Example project for debugging Mocha tests with Visual Studio Code. The Javascript tested functions are implemented with ES6 and Flow. Simple and useful to learn how to configure Visual Studio Code launch file and necessary packages.",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "flow": "flow"
+  },
+  "author": "Ivan Perez Sanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "flow-bin": "^0.81.0",
+    "mocha": "^5.2.0"
+  }
+}
