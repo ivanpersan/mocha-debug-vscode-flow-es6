@@ -1,6 +1,9 @@
 // @flow
 export class Operation {
-    constructor (firstNumber, secondNumber, result) {
+    firstNumber: number;
+    secondNumber: number;
+    result: number;
+    constructor (firstNumber: number, secondNumber: number, result: number) {
         this.firstNumber = firstNumber
         this.secondNumber = secondNumber
         this.result = result
